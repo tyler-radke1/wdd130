@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll </title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            WDD 130 | Tyler Radke | HTML Form - User Poll
+        </h1>
+    </header>
+    <main>
+        <form>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname">
+
+        <label for="useremail">Email</label>
+        <input type="text" name="useremail" id="useremail">
+    </fieldset>
+
+    <fieldset>
+        <legend>Questions</legend>
+
+        <label for="browser">What is your favorite browser?</label>
+        <select id="browser" name="browser">
+            <option value="chrome">Google Chrome</option>
+            <option value="firefox">Mozilla Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Microsoft Edge</option>
+        </select>
+
+        <label for="pet">
+            <input type="checkbox" id="pet" name="pet">
+            Do you have a household pet?
+        </label>
+
+        <label for="feedback">List the places you have lived:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="City, State, Country..."></textarea>
+    </fieldset>
+    <button type="submit">Submit Poll</button>
+</form>
+
+
+    </main>
+    <footer>
+        <p>
+            2025 | HTML Form User Activity
+        </p>
+    </footer>
+</body>
+
+</html>
